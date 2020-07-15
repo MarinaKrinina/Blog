@@ -1,0 +1,57 @@
+//bootstrap
+//красивый формат даты
+//чпу htaccess
+//mvc
+
+//подпись к range
+//заменить нул на 0
+//сделать нормальое оценивание с регистрацией и входом  
+//классы
+//стандарты psr
+//появилась типизация в php
+
+// класс pdo:
+//https://ru.stackoverflow.com/questions/823862/%D0%92%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-null-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%B1%D0%B0%D0%B7%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-mysql-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-php
+h1 {
+  text-align: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] +label {
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+input[type="radio"]:checked +label {
+  color: gray;
+}
+#sortArticles {
+  padding-bottom: 5px;
+}
+#articles {
+  padding: 5px;
+  background-color: #96e9e9;
+}
+
+.article {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+.articleDate {
+
+}
+.articleTitle {
+  
+}
+.articleText {
+  
+}
+.articleRate {
+  text-align: right;
+  padding: 5px;
+}
